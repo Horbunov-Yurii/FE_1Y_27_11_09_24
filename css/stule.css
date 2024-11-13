@@ -8,3 +8,53 @@
   --imputtext: rgba(73, 70, 79, 0.8);
   --svg-filf: rgba(0, 0, 0, 1);
 }
+
+
+body{
+font-family: "Roboto";
+}
+
+/* стилізація хедера */
+
+.header-link{
+  color: var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; 
+}
+
+.header-btn{
+   color: var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01;  
+}
+
+
+/* секція герой */
+
+
+.hero-title{
+  color: var(--mein-color);
+text-align: center;
+font-size: 99px;
+font-weight: 400;
+line-height: 1.12;
+letter-spacing: 5px;
+}
+
+.hero-text{
+  color: var(--mein-color);
+text-align: center;
+font-size: 21px;
+font-weight: 400;
+line-height: 1.1;
+}
+
+.hero-btn{
+  color: var(--mein-color);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; 
+}
