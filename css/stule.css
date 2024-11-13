@@ -58,3 +58,26 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.01; 
 }
+
+/* section works */
+
+.works-title {
+  color: var(--text-color);
+font-size: 67px;
+font-weight: 400;
+line-height: 1;
+}
+
+.works-text {
+  color: var(--text-color);
+font-size: 28px;
+font-weight: 400;
+line-height: 1.22; 
+}
+
+.works-btn {
+  color: var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; 
+}
