@@ -161,3 +161,23 @@ border-radius: 999px;
 border: 1px solid  var(--addedtext-color);
 }
 
+.just-title{
+  color: var(--addedtext-color);
+font-size: 67px;
+font-weight: 400;
+line-height: 1; /* 99.619% */
+}
+.just-desk{
+  color: var(--addedtext-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.2; /* 120% */
+}
+.just-btn{
+  color: var(--addedtext-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1; /* 100% */
+border-radius: 999px;
+border: 1px solid var(--addedtext-color);
+}
