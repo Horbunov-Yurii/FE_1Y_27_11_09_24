@@ -181,3 +181,28 @@ line-height: 1; /* 100% */
 border-radius: 999px;
 border: 1px solid var(--addedtext-color);
 }
+/* секція Your city */
+.city-subject{
+  color: var(--mein-color);
+font-size: 65px;
+font-weight: 400;
+line-height: 1.02; /* 102.685% */
+}
+.city-text{
+  color: var(--mein-color);
+font-size: 21px;
+font-weight: 400;
+line-height: 1.18; /* 118.202% */
+}
+.city-button{
+  color: var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; /* 101.904% */
+}
+.city-lead{
+  color:var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.35; /* 135% */
+}
