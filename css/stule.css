@@ -241,6 +241,8 @@ line-height: 1.18; /* 118.202% */
 font-size: 18px;
 font-weight: 400;
 line-height: 1.01; /* 101.904% */
+border-radius: 999px;
+background-color: var(--button-begrount);
 }
 .city-lead{
   color:var(--mein-color);
@@ -252,6 +254,67 @@ line-height: 1.35; /* 135% */
   padding-top: 69px;
   padding-bottom: 74px;
 }
+
+.charge-title{
+  color: var(--addedtext-color);
+font-size: 65px;
+font-weight: 400;
+line-height: 1.02; 
+}
+
+.charge-desk{
+  color: var(--addedtext-color);
+font-size: 21px;
+font-weight: 400;
+line-height: 1.18; 
+}
+
+.charge-text{
+  color: var(--text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.35; 
+}
+
+.charge-price{
+  color: var(--text-color);
+font-size: 17px;
+font-weight: 400;
+line-height: 1.27; 
+}
+
+.charge-link{
+  color: var(--button-begrount);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+}
+
+.charge-subtitle{
+  color: var(--addedtext-color);
+font-size: 29px;
+font-weight: 400;
+line-height: 1.18; /* 118.698% */
+}
+
+.charge-quote{
+  color:var(--addedtext-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.20; 
+}
+
+.charge-btn{
+  color: var(--mein-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.01; /* 101.904% */
+border-radius: 999px;
+background: var(--button-begrount);
+padding: 20px 54px 23px 54px;
+border: none;
+}
+
 .want{
   padding-top: 96px;
   padding-bottom: 100px;
