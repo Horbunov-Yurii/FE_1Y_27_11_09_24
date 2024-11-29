@@ -10,18 +10,32 @@
   --offer-bcg:#F1EEF8;
 }
 
+.container{
+width: 1230px;
+padding-left: 15px;
+padding-right:15px ;
+margin-left: auto;
+margin-right: auto;
+outline: 1px solid red;
+}
+
+
+
+
 
 
 
 body{
 font-family: "Roboto";
+background-color: #49464f;
 }
 
 /* стилізація хедера */
 
 .header{
   background-color:pink ;
- 
+ padding-top: 21px;
+
 
 }
 .header-logo{
@@ -57,6 +71,8 @@ padding: 20px 50px;
 
 .hero{
   background-color: pink;
+  padding-top: 126px;
+  padding-bottom: 177px;
 }
 
 
@@ -88,7 +104,10 @@ background: var(--button-begrount);
 }
 
 /* section works */
-
+.works{
+  padding-top: 74px;
+  padding-bottom: 73px;
+}
 .works-title {
   color: var(--text-color);
 font-size: 67px;
@@ -113,7 +132,9 @@ line-height: 1.01;
 /* секція move */
 
 .move{
-  background: var(--begrount-color);
+   background: var(--begrount-color); 
+   padding-top: 68px;
+   padding-bottom: 73px;
 }
 
 .move-title{
@@ -132,7 +153,7 @@ line-height: 1.24; /* 124.113% */
 
 .move-item{
   border-radius: 16px;
-background: var(--mein-color);
+/* background: var(--mein-color); */
 }
 
 .move-price{
@@ -174,7 +195,10 @@ line-height: 1; /* 100% */
 border-radius: 999px;
 border: 1px solid  var(--addedtext-color);
 }
-
+.just{
+  padding-top: 69px;
+  padding-bottom: 73px;
+}
 .just-title{
   color: var(--addedtext-color);
 font-size: 67px;
@@ -196,6 +220,10 @@ border-radius: 999px;
 border: 1px solid var(--addedtext-color);
 }
 /* секція Your city */
+.city{
+  padding-top: 98px;
+  padding-bottom: 96px;
+}
 .city-subject{
   color: var(--mein-color);
 font-size: 65px;
@@ -219,4 +247,20 @@ line-height: 1.01; /* 101.904% */
 font-size: 18px;
 font-weight: 400;
 line-height: 1.35; /* 135% */
+}
+.charge{
+  padding-top: 69px;
+  padding-bottom: 74px;
+}
+.want{
+  padding-top: 96px;
+  padding-bottom: 100px;
+}
+.members{
+  padding-top: 68px;
+  padding-bottom: 73px;
+}
+.footer{
+  padding-top: 98px;
+  padding-bottom: 21px;
 }
