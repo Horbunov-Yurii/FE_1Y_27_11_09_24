@@ -107,7 +107,7 @@ width: 293px;
 margin-left: auto;
  margin-right: auto;
  margin-bottom: 57px;
-|}
+}
 
 .hero-btn{
   color: var(--mein-color);
@@ -126,11 +126,25 @@ background: var(--button-begrount);
   padding-top: 74px;
   padding-bottom: 73px;
 }
+
+.work-box{
+  display: flex;
+  justify-content: space-between;
+}
+
 .works-title {
   color: var(--text-color);
 font-size: 67px;
 font-weight: 400;
 line-height: 1;
+margin-bottom: 71px;
+}
+
+.works-list{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 51px;
 }
 
 .works-text {
@@ -144,7 +158,11 @@ line-height: 1.22;
   color: var(--mein-color);
 font-size: 18px;
 font-weight: 400;
-line-height: 1.01; 
+line-height: 1.01;
+border-radius: 999px;
+background: var(--button-begrount); 
+padding: 20px 54px;
+border: none;
 }
 
 /* секція move */
