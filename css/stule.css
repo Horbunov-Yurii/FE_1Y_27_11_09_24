@@ -37,6 +37,20 @@ background-color: #999999;
  padding-top: 15px;
 }
 
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo{
+  margin-right: auto;
+}
+.header-list{
+  display: flex;
+  gap: 30px;
+
+}
+
 
 .header-link{
   color: var(--mein-color);
@@ -45,7 +59,9 @@ font-weight: 400;
 line-height: 1.01; 
 }
 
+
 .header-btn{
+  margin-left: 50px;
    color: var(--mein-color);
 font-size: 18px;
 font-weight: 400;
@@ -53,6 +69,7 @@ line-height: 1.01;
 border-radius: 999px;
 background:var(--button-begrount);
 padding: 11px 51px;
+border: none;
 
 }
 
