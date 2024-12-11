@@ -255,18 +255,28 @@ border: 1px solid  var(--addedtext-color);
 .just{
   padding-top: 69px;
   padding-bottom: 73px;
+  background-color: var(--begrount-color);
+}
+.just-box {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
 }
 .just-title{
   color: var(--addedtext-color);
 font-size: 67px;
 font-weight: 400;
 line-height: 1; /* 99.619% */
+width: 426px;
+margin-bottom: 26px;
 }
 .just-desk{
   color: var(--addedtext-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.2; /* 120% */
+width: 313px;
+margin-bottom: 39px;
 }
 .just-btn{
   color: var(--addedtext-color);
@@ -275,6 +285,7 @@ font-weight: 400;
 line-height: 1; /* 100% */
 border-radius: 999px;
 border: 1px solid var(--addedtext-color);
+padding: 12px 60px 12px 39px;
 }
 /* секція Your city */
 .city{
