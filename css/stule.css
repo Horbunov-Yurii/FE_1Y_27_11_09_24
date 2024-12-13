@@ -288,24 +288,38 @@ border: 1px solid var(--addedtext-color);
 padding: 12px 60px 12px 39px;
 }
 /* секція Your city */
+
 .city{
   padding-top: 98px;
   padding-bottom: 96px;
 }
+.city-box{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+
+}
 .city-subject{
   color: var(--mein-color);
+  width: 319px;
+  margin-bottom:12px;
 font-size: 65px;
 font-weight: 400;
 line-height: 1.02; /* 102.685% */
 }
 .city-text{
   color: var(--mein-color);
+  width: 242px;
+  margin-bottom: 29px;
 font-size: 21px;
 font-weight: 400;
 line-height: 1.18; /* 118.202% */
 }
 .city-button{
   color: var(--mein-color);
+  padding:21px 54px ;
+  border: none;
+  margin-bottom: 33px;
 font-size: 18px;
 font-weight: 400;
 line-height: 1.01; /* 101.904% */
@@ -314,9 +328,19 @@ background-color: var(--button-begrount);
 }
 .city-lead{
   color:var(--mein-color);
+
 font-size: 18px;
 font-weight: 400;
 line-height: 1.35; /* 135% */
+}
+.city-desc{
+  color: var(--mein-color);
+text-align: right;
+font-size: 100px;
+font-weight: 400;
+line-height: 1.11; /* 111.192% */
+letter-spacing: 5px;
+
 }
 
 
